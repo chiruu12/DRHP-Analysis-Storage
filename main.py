@@ -1,11 +1,11 @@
 import json
 from typing import List
 from dataclasses import asdict
-from doc_processor import DocProcessor
-from data_extractor import DataExtractor
-from section_summarizer import SectionSummarizer
-from vector_embedder import VectorEmbedder
-from company_data_class import CompanyData, DocumentData
+from src.doc_processor import DocProcessor
+from src.data_extractor import DataExtractor
+from src.section_summarizer import SectionSummarizer
+from src.vector_embedder import VectorEmbedder
+from src.company_data_class import CompanyData, DocumentData
 
 
 class Pipeline:
